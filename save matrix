@@ -1,0 +1,9 @@
+% Create some sample data
+x = [1 2 3 4];
+y = [5 6 7 8];
+
+% Combine the arrays into a matrix
+data = [x' y'];
+
+% Save the matrix to a CSV file
+csvwrite('data.csv', data);
